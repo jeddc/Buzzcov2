@@ -5,6 +5,20 @@ body {
   @apply subpixel-antialiased;
 }
 
+.header__logo {
+  width: 155px;
+}
+
+@media (max-width: 600px) {
+  .header__logo {
+    margin: 0 auto;
+  }
+
+  .home .py-24 {
+    padding-top: 0;
+  }
+}
+
 .main {
   display: flex;
   flex-direction: column;
